@@ -1,0 +1,24 @@
+* {
+  margin: 0px;
+  padding: 0px; }
+
+html {
+  font-size: 62.5%; }
+
+.cuerpoCv {
+  margin: 5% 25% 5% 25%;
+  width: 100rem;
+  height: 100rem;
+  border: 1px solid black; }
+
+.flex-row {
+  display: flex;
+  flex-direction: row; }
+
+.flex-column {
+  display: flex;
+  flex-direction: column; }
+
+#grilla {
+  display: grid;
+  grid-template-areas: "icono section redes" "nav section redes" "nav section redes" "nav section autor" "nav section dato" "nav section dato" "nav section dato" "footer footer footer"; }
