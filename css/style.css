@@ -21,4 +21,6 @@ html {
 
 #grilla {
   display: grid;
-  grid-template-areas: "icono section redes" "nav section redes" "nav section redes" "nav section autor" "nav section dato" "nav section dato" "nav section dato" "footer footer footer"; }
+  grid-template-areas: "icono section redes" "nav section redes" "nav section redes" "nav section autor" "nav section dato" "nav section dato" "nav section dato" "footer footer footer";
+  grid-template-columns: 30rem 60rem 10rem;
+  grid-template-rows: auto; }
