@@ -1,0 +1,14 @@
+header{
+    @extend .flex-column;
+    nav{
+        @extend .flex-column;
+        grid-area: nav;
+        div{
+            @include sizes(22rem,10rem);
+            background-color: red;
+        }
+    }
+    img{
+        grid-area: imgCv;
+    }
+}

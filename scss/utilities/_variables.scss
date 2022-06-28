@@ -1,7 +1,7 @@
 .cuerpoCv{
     margin: 5% 25% 5% 25%;
     width: 100rem;
-    height: 100rem;
+    height: 90rem;
     border: 1px solid black;
 }
 
@@ -18,15 +18,18 @@
 #grilla{
     display: grid;
     grid-template-areas:
-    "icono section redes"
-    "nav section redes"
-    "nav section redes"
-    "nav section autor"
-    "nav section dato"
-    "nav section dato"
-    "nav section dato"
-    "footer footer footer";
-    grid-template-columns:30rem 60rem 10rem ;
-    grid-template-rows:auto ;
+    "imgCv section footer"
+    "nav section footer"
+    "nav section footer"
+    "nav section footer"
+    "nav section footer"
+    "nav section footer"
+    "nav section footer";
+    grid-template-columns:22rem 73rem 5rem ;
+    grid-template-rows:30rem 10rem 10rem 10rem 10rem 10rem 10rem;
+} 
 
+@mixin sizes($ancho,$alto) {
+    width: $ancho;
+    height: $alto;
 }

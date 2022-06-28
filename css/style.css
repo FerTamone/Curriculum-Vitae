@@ -8,19 +8,37 @@ html {
 .cuerpoCv {
   margin: 5% 25% 5% 25%;
   width: 100rem;
-  height: 100rem;
+  height: 90rem;
   border: 1px solid black; }
 
 .flex-row {
   display: flex;
   flex-direction: row; }
 
-.flex-column {
+.flex-column, footer, header, header nav {
   display: flex;
   flex-direction: column; }
 
 #grilla {
   display: grid;
-  grid-template-areas: "icono section redes" "nav section redes" "nav section redes" "nav section autor" "nav section dato" "nav section dato" "nav section dato" "footer footer footer";
-  grid-template-columns: 30rem 60rem 10rem;
-  grid-template-rows: auto; }
+  grid-template-areas: "imgCv section footer" "nav section footer" "nav section footer" "nav section footer" "nav section footer" "nav section footer" "nav section footer";
+  grid-template-columns: 22rem 73rem 5rem;
+  grid-template-rows: 30rem 10rem 10rem 10rem 10rem 10rem 10rem; }
+
+footer {
+  grid-area: footer;
+  background-color: aquamarine; }
+
+header nav {
+  grid-area: nav; }
+  header nav div {
+    width: 22rem;
+    height: 10rem;
+    background-color: red; }
+
+header img {
+  grid-area: imgCv; }
+
+.imgHeader {
+  width: 22rem;
+  height: 30rem; }

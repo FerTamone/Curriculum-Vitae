@@ -1,0 +1,5 @@
+footer{
+    @extend .flex-column;
+    grid-area: footer;
+    background-color:aquamarine ;
+}
